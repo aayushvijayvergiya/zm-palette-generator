@@ -6,7 +6,7 @@ import { TinyColor } from '@ctrl/tinycolor';
  * @returns {Object} Object of generated palette
  * @description Returns palette for a given color code and style.
  */
-export default function generateColor(color, style='constantine') {
+export default function generatePalette(color, style='constantine') {
     const baseColor = new TinyColor(color, 'hex');
     const baseLight = new TinyColor('#FFFFFF');
     const baseDark = baseColor.darken(20).toHexString();
