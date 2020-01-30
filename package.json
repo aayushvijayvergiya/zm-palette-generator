@@ -6,14 +6,15 @@
   "main": "src/index.js",
   "repository": "Zimbra/zm-palette-generator",
   "scripts": {
-    "build": "webpack",
+    "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3"
   },
   "dependencies": {
     "@ctrl/tinycolor": "^2.6.0"
