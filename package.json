@@ -1,0 +1,21 @@
+{
+  "name": "zm-palette-generator",
+  "version": "1.0.0",
+  "description": "For a given color, it generates a palette of similar colors",
+  "private": true,
+  "main": "src/index.js",
+  "repository": "Zimbra/zm-palette-generator",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@ctrl/tinycolor": "^2.6.0"
+  }
+}
