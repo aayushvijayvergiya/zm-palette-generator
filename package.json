@@ -2,7 +2,6 @@
   "name": "zm-palette-generator",
   "version": "1.0.0",
   "description": "For a given color, it generates a palette of similar colors",
-  "private": true,
   "main": "dist/main.js",
   "repository": "Zimbra/zm-palette-generator",
   "scripts": {
