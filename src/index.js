@@ -25,16 +25,16 @@ export default function generatePalette(color, style='constantine') {
     };
 
     const paletteTraditional = {
-        50: baseColor.lighten(52), 
-        100: baseColor.lighten(37), 
-        200: baseColor.lighten(26), 
-        300: baseColor.lighten(12), 
-        400: baseColor.lighten(6), 
-        500: baseColor, 
-        600: baseColor.darken(6), 
-        700: baseColor.darken(12), 
-        800: baseColor.darken(18), 
-        900: baseColor.darken(24), 
+        50: baseColor.lighten(52).toHexString(), 
+        100: baseColor.lighten(37).toHexString(), 
+        200: baseColor.lighten(26).toHexString(), 
+        300: baseColor.lighten(12).toHexString(), 
+        400: baseColor.lighten(6).toHexString(), 
+        500: baseColor.toHexString(), 
+        600: baseColor.darken(6).toHexString(), 
+        700: baseColor.darken(12).toHexString(), 
+        800: baseColor.darken(18).toHexString(), 
+        900: baseColor.darken(24).toHexString(), 
     };
 
     return style === 'constantine' ? paletteConstantine : paletteTraditional
